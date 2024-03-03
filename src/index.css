@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family:'B Nazanin','tahoma','ubunto' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder {
+  color:gray;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  background-color: #efeeee !important;
+  color:gray;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+:root {
+  --main-color: #2563eb;
+  --second-color: #464a56dc;
+  --lightBg-color: #f7f7f7;
+}
+
+.navbar .contact {
+   color: var(--main-color);
+   font-weight: 600;
+   font-size: 16px;
+}
+.form-control {
+  background-color:#efeeee !important;
+  color:gray !important;
+  border-color: #efeeee !important;
+}
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.leaflet-container {
+  height: 800px;
+  width: 800px;
+}
+
+.insert-btn{
+  background-color: lightgreen;
+  color:#f7f7f7;
+  font-size:14px;
+}
+.bg-color-primary{
+  background-color:lightgray;
+}
